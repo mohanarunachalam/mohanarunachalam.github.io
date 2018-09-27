@@ -1,0 +1,22 @@
+title: Mohan Kumar
+author: Mohan Kumar
+url: "https://mohanarunachalam.github.io/"
+baseurl: ""
+
+description: Mohan Kumar's website
+
+markdown: kramdown
+
+# google_analytics_tracking_id: UA-109052064-1
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+include: ["_pages"]
+
+github_username:      mohanarunachalam
+linkedin_username:    mohan-kumar-11824877
+quora_username:       Mohan-Kumar-243
+facebook_username:    mohankumar011
+twitter_username:     MohanKumar10011

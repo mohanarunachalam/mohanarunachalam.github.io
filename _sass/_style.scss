@@ -1,0 +1,273 @@
+@import "vars";
+
+/*
+ * Basic
+ */
+
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow:scroll;
+}
+
+header {
+    /* ... */
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    // font-weight: light;
+    font-size: $body-font-size;
+    color: #444444;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: $accent;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+/*
+ * Navbar
+ */
+
+/* Fix top */
+.fixed-top {
+    // display: inline-block;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    // left: 50%;
+    margin: -10px 0px 0px 0px; /* Negative half of height. */
+    // margin-left: 50px;
+    width: 100%;
+}
+
+#author-name {
+    font-size: $author-font-size;
+    font-weight: bold;
+    color: #888888;
+    // text-shadow: 2px 2px #ffffff;
+    // display: inline-block;
+    margin: -10px 0px 0px 0px;
+}
+.navbar {
+    width: 100%;
+    height: 20px;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 25px 0px 15px 0px;
+    border-bottom: 2px solid darken(#ffffff, 20%);
+}
+.navbar-ul {
+    display: inline-block;
+    margin: 0;
+}
+.nav-list {
+    list-style-type: none;
+    margin: 0px 0px 0px 20px;
+}
+.alignable {
+    display: inline-block;
+}
+.pull-left {
+    @extend .alignable;
+    float: left;
+}
+.pull-right {
+    @extend .alignable;
+    float: right;
+}
+
+/* Divs */
+
+.container {
+    max-width: 60%;
+    margin: auto;
+}
+
+.body-container {
+    max-width: 50%;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+/* Date */
+
+.date-text { 
+	float: left;
+	width: 4px;
+}
+
+ul li span {
+	float: left;
+	width: 400px;
+}
+
+/* Publications */
+
+.publications {
+    min-height: 20px;
+    width: 100%;
+    // padding-bottom: 10px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 1px solid darken(#ffffff, 30%);
+    blockquote {
+        border-color: #ddd;
+        border-color: rgba(0,0,0,.15);
+      }
+}
+
+.publication-title {
+    margin: 20px 20px 10px 20px;
+    // margin-bottom: 10px;
+    font-size: $publication-title-font-size;
+    font-weight: bold;
+}
+
+.publication-picture {
+    // display: inline-block;
+    max-width: 20%;
+    float: left;
+    padding: 2px;
+    border: 1px solid darken(#ffffff, 20%);
+    border-radius: 10px;
+    // margin: 0px 20px 0px 0px;
+    overflow: hidden;
+    margin: 0px 20px 10px 20px;
+}
+
+.publication-text {
+    // margin-left: 24%;
+    margin: 0px 0px 20px 25%;
+}
+
+// .publication-links {
+//     margin: 0px 0px 5px 0px;
+// }
+
+/* Social */
+
+.contact {
+    font-size: $contact-font-size;
+    line-height: 200%;
+}
+
+.contact i {
+    font-size: 2em;
+    margin-right: 2px
+}
+
+/* Footer */
+
+.footer {
+    font-size: $footer-font-size;
+    /* Set the fixed height of the footer here */
+    height: 20px;
+    margin: 100px 0px 10px 0px;
+    border-top: 1px solid darken(#ffffff, 20%);
+    // border-radius: 4px;
+    // @include box-shadow(0 1px 1px rgba(0,0,0,.05));
+    padding: 0px 0px 25px 0px;
+    background-color: #eeeeee;
+    // border-top: 1px solid transparent;
+}
+
+.footer i {
+    font-size: 2em;
+    padding-top: 7px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+    .container {
+        max-width: $med-width;
+        transition: 0.3s ease all;
+    }
+    #author-name {
+        font-size: $author-media-font-size;
+        font-weight: bold;
+    }
+    .body-container {
+        max-width: $med-width;
+        transition: 0.3s ease all;
+        padding-top: 90px;
+    }
+    .navbar {
+        height: 70px;
+        padding: 20px 0px 0px 0px;
+    }
+    .nav-list {
+        // width: 30%;
+        margin: 0px 0px 0px 20px;
+        // background-color: #eeeeee;
+        // border: 1px solid darken(#ffffff, 20%);
+    }
+    .publication-picture {
+        max-width: 80%;
+        margin: 10px 10% 20px 10%;
+    }
+    .publication-text {
+        max-width: 80%;
+        margin: 10px 10% 20px 10%;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        max-width: 80%;
+    }
+    .body-container {
+        max-width: 80%;
+    }
+    .navbar-ul {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 580px) {
+    #author-name {
+        display: inline-block;
+    }
+    .footer {
+        height: 30px;
+    }
+}
+
+@media (max-width: 340px) {
+    .navbar {
+        height: 90px;
+    }
+}
+
+button,
+[role="button"] {
+    padding: 3px;
+    border: 1px solid #CCC;
+}
+
+button[aria-pressed="true"],
+[role="button"][aria-pressed="true"] {
+    border: 2px solid #000;
+}
+
+@import "typography";
+@import "tables";
