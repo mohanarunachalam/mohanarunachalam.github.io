@@ -1,12 +1,12 @@
-- title: Lip-Synchronization for Dubbed Instructional Videos
-  image: 2018_CVPRW.png
-  description: <ul><li>Video translation to morph lip movements of speakers to match new audio</li></ul>
-  authors: Abhishek Jha, Vikram Voleti, Vinay P. Namboodiri, C. V. Jawahar
-  venue: CVPR Workshop (FIVER)
+- title: Sample
+  image: Sample.png
+  description: <ul><li>Sample</li></ul>
+  authors: Mohan Kumar
+  venue: CVPR Workshop (CMLA)
   number_link: 2
   link1:
-    url: 2018_04_ICIDE.pdf
+    url: Sample.pdf
     display: pdf
   link2:
-    url: http://fiver.eecs.umich.edu/#abstracts
+    url: sample
 display: url
