@@ -24,8 +24,4 @@ permalink: /contact
 
 ---
 
-### Movie review blog:
 
-[<i class="fa fa-wordpress"></i> {{ site.wordpress_username }}.wordpress.com](https://{{ site.wordpress_username }}.wordpress.com){:target="_blank"}
-
-</div>
