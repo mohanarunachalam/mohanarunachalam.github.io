@@ -1,14 +1,14 @@
 - name: "CONTACT"
   link: "/contact"
 
-- name: "EXPERIENCE"
+  name: "EXPERIENCE"
   link: "/experience"
 
-- name: "CV"
+  name: "CV"
   link: "/docs/cv/Mohan_Kumar_CV.pdf"
 
-- name: "PUBLICATIONS"
+  name: "PUBLICATIONS"
   link: "/publications"
 
-- name: "HOME"
+  name: "HOME"
 link: "/"
