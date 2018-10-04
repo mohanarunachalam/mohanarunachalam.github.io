@@ -11,15 +11,7 @@
 
         {{ content }}
 
-    </div>
-
-    {% include footer.html %}
-
-    {% if jekyll.environment == 'production' %}
-    {% endif %}
-
-
-    <aside class="skills aside section">
+     <aside class="skills aside section">
                     <div class="section-inner">
                         <h2 class="heading">Programming Skills</h2>
                         <div class="content">
@@ -68,6 +60,16 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
 </aside><!--//section-->
+
+
+    </div>
+
+    {% include footer.html %}
+
+    {% if jekyll.environment == 'production' %}
+    {% endif %}
+
+
 
 </body>
 </html>
