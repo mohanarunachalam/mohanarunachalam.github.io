@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<br/>
 
 <img class="profile-picture" src="mohan.jpg">
 
@@ -16,7 +17,14 @@ I graduated from [BITS PILANI, Hyderabad Campus](http://www.bits-pilani.ac.in/hy
 
 My interest lies in the fields of Computer Vision and Machine learning. Recent interest is in applying reinforcement learning techniques in games like Rubik's cube.
 
-## Publications
+<br/>
 
-1. Scaling Handwritten Student Assessments with a Document Image
-Workflow System.
+## News
+
+<table>
+{% for article in site.data.news %}
+<tr>
+{% include news.html %}
+</tr>
+{% endfor %}
+</table>

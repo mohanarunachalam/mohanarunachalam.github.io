@@ -1,12 +1,14 @@
-- title: Sample
-  image: Sample.png
-  description: <ul><li>Sample</li></ul>
-  authors: Mohan Kumar
+- title: Scaling Handwritten Student Assessments with a Document Image
+  Workflow System
+  image: 2018_CMLA_Workshop.png
+  description: <ul><li>A document image workflow system to scale and automate the handwritten student assessments in a typical university setting</li></ul>
+  authors: Vijay Rowtula, Varun Bhargavan, Mohan Kumar and C.V. Jawahar
   venue: CVPR Workshop (CMLA)
   number_link: 2
   link1:
-    url: Sample.pdf
+    url: 2018_CMLA_Workshop.pdf
     display: pdf
+
   link2:
-    url: sample
+    url: http://cmla2018.actlabs.org/papers/CMLA_Rowtula.pdf
     display: url
