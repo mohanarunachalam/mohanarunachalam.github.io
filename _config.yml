@@ -9,8 +9,6 @@ markdown: kramdown
 
 remote_theme: ankitsultana/researcher@gem
 
-# google_analytics_tracking_id: UA-109052064-1
-
 sass:
     style: compressed
     sass_dir: _sass
