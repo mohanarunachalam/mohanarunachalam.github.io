@@ -13,6 +13,20 @@ sass:
     style: compressed
     sass_dir: _sass
 
+collections:
+  works:
+    output: true
+    permalink: /works/:path/    
+  writings:
+    output: true
+    permalink: /blog/:path/ 
+  pages:
+    output: true
+    permalink: /:path/
+
+gems:
+- jekyll-redirect-from
+
 include: ["_pages"]
 
 github_username:      mohanarunachalam
