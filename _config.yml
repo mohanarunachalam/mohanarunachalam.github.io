@@ -1,11 +1,11 @@
 # Basic Info
 title: Mohan Kumar
 tagline:          "Yet another developer\'s blog"
-description:      "Yet another developer\'s blog. Some notes and links to other websites."
+# description:      "Yet another developer\'s blog. Some notes and links to other websites."
 url: "https://mohanarunachalam.github.io/"
 baseurl: /
 
-description: Mohan Kumar's website
+# description: Mohan Kumar's website
 
 # Dependencies
 markdown: kramdown
