@@ -1,3 +1,7 @@
-# Mohan Kumar's website
+# Mohan Kumar's website mohanarunachalam.github.io
 
-Based on [Researcher theme](https://github.com/bk2dcradle/researcher).
+Blog made with Jekyll and Hyde
+
+## License
+
+Open sourced under the [MIT license](LICENSE.md).

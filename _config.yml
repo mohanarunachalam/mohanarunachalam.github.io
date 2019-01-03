@@ -1,6 +1,7 @@
 # Basic Info
 title: Mohan Kumar
-author: Mohan Kumar
+tagline:          "Yet another developer\'s blog"
+description:      "Yet another developer\'s blog. Some notes and links to other websites."
 url: "https://mohanarunachalam.github.io/"
 baseurl: /
 
@@ -22,20 +23,26 @@ collections:
     output: true
     permalink: /:collection/:path
 
+author:
+  name:           "Mohan Kumar"
+  url:            "https://mohanarunachalam.github.io"
+
+
 # remote_theme: ankitsultana/researcher@gem
 
-gems:
-- jekyll-redirect-from
+# gems:
+# - jekyll-redirect-from
 
-include: ["_pages"]
+# include: ["_pages"]
 
-github_username:      mohanarunachalam
-linkedin_username:    mohan-kumar-11824877
-quora_username:       Mohan-Kumar-243
-facebook_username:    mohankumar011
-twitter_username:     MohanKumar10011
+# github_username:      mohanarunachalam
+# linkedin_username:    mohan-kumar-11824877
+# quora_username:       Mohan-Kumar-243
+# facebook_username:    mohankumar011
+# twitter_username:     MohanKumar10011
 
 social:
   github:        "https://github.com/mohanarunachalam"
   # blog:          "https://github.com/ThibaultLaurens/thibaultlaurens.github.io"
   linkedin:      "https://www.linkedin.com/in/mohan-kumar-11824877"
+  # quora: 
