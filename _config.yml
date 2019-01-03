@@ -1,28 +1,28 @@
+# Basic Info
 title: Mohan Kumar
 author: Mohan Kumar
 url: "https://mohanarunachalam.github.io/"
-baseurl: ""
+baseurl: /
 
 description: Mohan Kumar's website
 
+# Dependencies
 markdown: kramdown
+highlighter: rouge
 
-remote_theme: ankitsultana/researcher@gem
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
 
-sass:
-    style: compressed
-    sass_dir: _sass
+plugins:          [jekyll-paginate]
+paginate:         5
 
 collections:
-  works:
+  courses:
     output: true
-    permalink: /works/:path/    
-  writings:
-    output: true
-    permalink: /blog/:path/ 
-  pages:
-    output: true
-    permalink: /:path/
+    permalink: /:collection/:path
+
+# remote_theme: ankitsultana/researcher@gem
 
 gems:
 - jekyll-redirect-from
@@ -34,3 +34,8 @@ linkedin_username:    mohan-kumar-11824877
 quora_username:       Mohan-Kumar-243
 facebook_username:    mohankumar011
 twitter_username:     MohanKumar10011
+
+social:
+  github:        "https://github.com/mohanarunachalam"
+  # blog:          "https://github.com/ThibaultLaurens/thibaultlaurens.github.io"
+  linkedin:      "https://www.linkedin.com/in/mohan-kumar-11824877"
