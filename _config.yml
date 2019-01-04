@@ -19,9 +19,9 @@ plugins:          [jekyll-paginate]
 paginate:         5
 
 collections:
-  courses:
-    output: true
-    permalink: /:collection/:path
+  # courses:
+  #   output: true
+  #   permalink: /:collection/:path
 
   about:
     output: true
