@@ -23,6 +23,10 @@ collections:
     output: true
     permalink: /:collection/:path
 
+  about:
+    output: true
+    permalink: /:collection/:path
+
 author:
   name:           "Mohan Kumar"
   url:            "https://mohanarunachalam.github.io"
