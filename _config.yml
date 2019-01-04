@@ -1,7 +1,7 @@
 # Basic Info
 title: Mohan Kumar
 tagline:          "Yet another developer\'s blog"
-# description:      "Yet another developer\'s blog. Some notes and links to other websites."
+description:      "My Technical diary and blog"
 url: "https://mohanarunachalam.github.io/"
 baseurl: /
 
@@ -19,13 +19,15 @@ plugins:          [jekyll-paginate]
 paginate:         5
 
 collections:
-  # courses:
-  #   output: true
-  #   permalink: /:collection/:path
-
   about:
     output: true
     permalink: /:collection/:path
+
+  courses:
+    output: true
+    permalink: /:collection/:path
+
+  
 
 author:
   name:           "Mohan Kumar"
