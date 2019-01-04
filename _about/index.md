@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "About me"
+description: "My job and project experiences"
+category: introduction
 ---
 <br/>
-
 <img class="profile-picture" src="mohan.jpg">
 
 I am a Deep Learning consultant at a EduTech startup, based out of Hyderabad,India.
