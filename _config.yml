@@ -56,3 +56,4 @@ social:
   # blog:          "https://github.com/ThibaultLaurens/thibaultlaurens.github.io"
   linkedin:      "https://www.linkedin.com/in/mohan-kumar-11824877"
   # quora: 
+theme: jekyll-theme-cayman
