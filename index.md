@@ -3,6 +3,7 @@ layout: default
 title: "About me"
 description: "My job and project experiences"
 category: introduction
+permalink: /about/
 ---
 <br/>
 <img class="profile-picture" src="mohan.jpg">

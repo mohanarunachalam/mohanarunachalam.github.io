@@ -14,9 +14,10 @@
 
 <!--         <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Blog</a>
  -->
-        {% assign blog_url = page.url | slice: 1, 4 %}
+        <!-- {% assign blog_url = page.url | slice: 1, 4 %}
         <a class="sidebar-nav-item{% if sliced_url == "blog" %} active{% endif %}" href="/blog">Blog</a>
-
+         -->
+        <a class="sidebar-nav-item" href="{{ site.social.blog }}" target="_blank">Blog</a>
 
         {% assign sliced_url = page.url | slice: 1, 7 %}
         <a class="sidebar-nav-item{% if sliced_url == "courses" %} active{% endif %}" href="/courses">Courses</a>
